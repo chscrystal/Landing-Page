@@ -1,5 +1,5 @@
 * {
-    border: 2px solid red;
+   
 }
 
 header {
@@ -32,6 +32,7 @@ nav {
 .img{
    max-width: 60%;
    height: auto;
+   margin-bottom: 20px;
 }
 
 h2 {
@@ -93,4 +94,61 @@ h3 {
 .projdescription {
    text-align: center;
 
+}
+
+.greybox {
+   background-color: #e5e7eb;
+   width: 100%;
+   height: 400px;
+   display: flex;
+   
+}
+
+.quotearea {
+   margin: 80px 150px 100px 150px;
+
+}
+
+.quote {
+   font-size: 36px;
+   font-style: italic;
+}
+
+.author {
+   font-size: 24px;
+   font-weight: bold;
+   text-align: right;
+   
+}
+
+h4 {
+   font-size: 22px;
+   color: #f9faf8;
+   margin-bottom: 0px;
+}
+
+.bluebox {
+   background-color: #3882f6;
+   margin: 100px 180px 100px 180px;
+   display: flex;
+   border-radius: 10px;
+}
+
+.whitebutton{
+   border-color: #f9faf8;
+   margin: auto;
+}
+
+.blueboxleft {
+  margin: 10px 0px 10px 100px;
+}
+
+
+.footer{
+   display: flex;
+   background-color: #1f2937;
+   width: 100%;
+   height: 100px;
+   align-items: center;
+   justify-content: center;
 }
